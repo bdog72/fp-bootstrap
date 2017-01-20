@@ -9,6 +9,11 @@ html {
 
 body {
   @include font-smoothing(on);
-  margin: 0;
   font: $base-text-size / 1 $base-font-family;
+}
+
+h1.display-3.header {
+  font-family: 'Chewy';
+  text-align: center;
+  font-size: 8em;
 }
