@@ -10,10 +10,23 @@ html {
 body {
   @include font-smoothing(on);
   font: $base-text-size / 1 $base-font-family;
+  background: #aca69b;
 }
 
-h1.display-3.header {
+.header {
+  border: 1px solid black;
+  margin-top: 20px;
+  background: #403e34;
+}
+
+h1.display-3.header1 {
   font-family: 'Chewy';
   text-align: center;
   font-size: 8em;
 }
+
+// #403e34
+// #aca69B
+// #cec4b8
+// #46595f
+// #b3ab99
